@@ -1,0 +1,34 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+svg {
+  width: 30px;
+  fill: aqua;
+}
+
+.header__user-icon {
+  margin-right: 20px;
+}
+
+.header {
+  min-height: 90px;
+  margin-bottom: 40px;
+}
+
+.news,
+.rewards {
+  min-height: 500px;
+  background-color: cadetblue;
+}
+
+.news-card__inner,
+.rewards-card__inner {
+  min-height: 410px;
+  background-color: antiquewhite;
+  z-index: 10;
+}
